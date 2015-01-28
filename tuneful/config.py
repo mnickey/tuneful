@@ -1,3 +1,6 @@
+# Need to resolve users in db, for now no username/password works
+# To run this I need to load the Postgres app
+
 class DevelopmentConfig(object):
     DATABASE_URI = "postgresql://:@localhost:5432/tuneful"
     DEBUG = True
