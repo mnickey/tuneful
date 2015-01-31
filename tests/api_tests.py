@@ -13,6 +13,7 @@ from tuneful import app
 from tuneful import models
 from tuneful.utils import upload_path
 from tuneful.database import Base, engine, session
+from pprint import pprint as pp
 
 class TestAPI(unittest.TestCase):
     """ Tests for the tuneful API """
@@ -33,9 +34,16 @@ class TestAPI(unittest.TestCase):
         shutil.rmtree(upload_path())
     def testGetSongs(self):
         """ Get a song from a prepopulated database """
-        songA = models.Song(id=1) # Need to figure out how to add file info in here.
-        session.add_all([songA])
+        fileA = models.File(name="test")
+        songA = models.Song(info=fileA)
+
+        pp ("songA details: " + str(songA) )
+        pp ("fileA details: " + str(fileA) )
+        session.add_all([songA, fileA])
         session.commit()
+        pp ("songA details: " + str(songA) )
+        pp ("fileA details: " + str(fileA) )
+        # assert False
         self.assertEqual(songA.id, 1)
     def testPostSongs(self):
         """ Post a song """
