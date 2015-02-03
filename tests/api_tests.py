@@ -34,17 +34,41 @@ class TestAPI(unittest.TestCase):
         shutil.rmtree(upload_path())
     def testGetSongs(self):
         """ Get a song from a prepopulated database """
+        # Create the file and the song
         fileA = models.File(name="test")
         songA = models.Song(info=fileA)
-
-        pp ("songA details: " + str(songA) )
-        pp ("fileA details: " + str(fileA) )
+        # Add the song to the database
         session.add_all([songA, fileA])
         session.commit()
-        pp ("songA details: " + str(songA) )
-        pp ("fileA details: " + str(fileA) )
+        # Check to make sure that the song is seen by the endpoint
+        response = self.client.get("/api/songs",
+                    headers = [("Accept", "application/json")] )
+
+        # Check that the status_code is accepted (200)
+        self.assertEqual(response.status_code, 200)
+
+        # Check to make sur ethat the mimetype is JSON
+        self.assertEqual(response.mimetype, "application/json")
+
+        # print out the song and file details if there is a failure
+        # using assert False
+        # pp ("songA details: " + str(songA) )
+        # pp ("fileA details: " + str(fileA) )
         # assert False
         self.assertEqual(songA.id, 1)
     def testPostSongs(self):
         """ Post a song """
-        pass
+        # Create the file and the song
+        fileA = models.File(name="testPut")
+        songA = models.Song(info=fileA)
+        # Add the song to the database
+        session.add_all([songA, fileA])
+        session.commit()
+        # Check to make sure that the song is seen by the endpoint
+        response = self.client.put("api/songs",
+                    headers = [("application/json")] )
+        pp ("songA details: " + str(songA) )
+        pp ("fileA details: " + str(fileA) )
+        #assert False
+        self.assertEqual(songA.id, 1)
+

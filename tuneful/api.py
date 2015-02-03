@@ -17,3 +17,7 @@ def songs_get():
     data = json.dumps([])
     return Response(data, 200, mimetype="application/json")
 
+@app.route("/api/songs", methods=["PUT"])
+def songs_put():
+    data = json.dumps([])
+    return Response(data, 200, mimetype="application/json")
