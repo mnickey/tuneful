@@ -47,7 +47,7 @@ class TestAPI(unittest.TestCase):
         # Check that the status_code is accepted (200)
         self.assertEqual(response.status_code, 200)
 
-        # Check to make sur ethat the mimetype is JSON
+        # Check to make sure that the mimetype is JSON
         self.assertEqual(response.mimetype, "application/json")
 
         # print out the song and file details if there is a failure
@@ -59,16 +59,25 @@ class TestAPI(unittest.TestCase):
     def testPostSongs(self):
         """ Post a song """
         # Create the file and the song
-        fileA = models.File(name="testPut")
-        songA = models.Song(info=fileA)
+        fileB = models.File(name="testPut")
+        songB = models.Song( info=fileB )
+        print type(songB)
         # Add the song to the database
-        session.add_all([songA, fileA])
+        session.add_all([songB, fileB])
         session.commit()
+        pp ("songB details: {}".format(songB) )
+        newSong = songB.as_dictionary()
+        pp ("newSong details: {}".format(newSong) )
+        print type(newSong)
+        # print type(newSong)
         # Check to make sure that the song is seen by the endpoint
-        response = self.client.put("api/songs",
+        response = self.client.put("api/songs/{}".format(songB.id),
+                    data = json.dumps(newSong),
                     headers = [("application/json")] )
-        pp ("songA details: " + str(songA) )
-        pp ("fileA details: " + str(fileA) )
+        # Check that the status_code is accepted (200)
+        self.assertEqual(response.status_code, 200)
+        # Check to make sure that the mimetype is JSON
+        self.assertEqual(response.mimetype, "application/json")
         #assert False
-        self.assertEqual(songA.id, 1)
+        self.assertEqual(songB.id, 1)
 

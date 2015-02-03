@@ -19,5 +19,6 @@ def songs_get():
 
 @app.route("/api/songs", methods=["PUT"])
 def songs_put():
+    """ Put a song into the database """
     data = json.dumps([])
     return Response(data, 200, mimetype="application/json")

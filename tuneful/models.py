@@ -17,7 +17,8 @@ class Song(Base):
     info = relationship("File", uselist=False, backref="songs")
 
     def __repr__(self):
-        return str(self.as_dictionary() )
+        # was return str(self.as_dictionary() )
+        return ("[[[" + str(self.as_dictionary()) + "]]]")
 
     def as_dictionary(self):
         song = {
@@ -37,7 +38,8 @@ class File(Base):
     song_info = relationship("Song", uselist=False, backref="files")
 
     def __repr__(self):
-        return str(self.as_dictionary() )
+        # was return str(self.as_dictionary() )
+        return ("[[[" + str(self.as_dictionary()) + "]]]")
 
     def as_dictionary(self):
         file = {

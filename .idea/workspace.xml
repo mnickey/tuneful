@@ -4,7 +4,7 @@
     <list default="true" id="96b5d50c-a543-4e50-87d3-06edde7b381d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tuneful/api.py" afterPath="$PROJECT_DIR$/tuneful/api.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/api_tests.py" afterPath="$PROJECT_DIR$/tests/api_tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tuneful/models.py" afterPath="$PROJECT_DIR$/tuneful/models.py" />
     </list>
     <ignored path="Tuneful.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,11 +85,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tuneful/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="840">
-                  <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+                <state vertical-scroll-proportion="0.41060904" vertical-offset="331" max-vertical-offset="870">
+                  <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
                   <folding>
                     <element signature="e#0#14#0" expanded="true" />
                   </folding>
@@ -100,7 +100,7 @@
           <file leaf-file-name="api_tests.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/api_tests.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="915">
+                <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1050">
                   <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
                   <folding>
                     <element signature="e#531#747#0" expanded="false" />
@@ -110,11 +110,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="api.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tuneful/api.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.60998154" vertical-offset="0" max-vertical-offset="541">
-                  <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+                  <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
                   <folding>
                     <element signature="e#0#14#0" expanded="true" />
                   </folding>
@@ -129,8 +129,8 @@
           <file leaf-file-name="api_tests.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/api_tests.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7781885" vertical-offset="314" max-vertical-offset="915">
-                  <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+                <state vertical-scroll-proportion="0.57088125" vertical-offset="467" max-vertical-offset="1050">
+                  <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
                   <folding>
                     <element signature="e#531#747#0" expanded="false" />
                     <element signature="e#781#999#0" expanded="false" />
@@ -151,9 +151,9 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tuneful/config.py" />
+        <option value="$PROJECT_DIR$/tuneful/api.py" />
         <option value="$PROJECT_DIR$/tuneful/models.py" />
         <option value="$PROJECT_DIR$/tests/api_tests.py" />
-        <option value="$PROJECT_DIR$/tuneful/api.py" />
       </list>
     </option>
   </component>
@@ -161,7 +161,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="595" />
+    <option name="x" value="578" />
     <option name="y" value="23" />
     <option name="width" value="1323" />
     <option name="height" value="951" />
@@ -458,11 +458,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="595" y="23" width="1323" height="951" extended-state="0" />
+    <frame x="578" y="23" width="1323" height="951" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31856287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34131736" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1326923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -908,10 +908,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tuneful/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tuneful/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="840">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.41060904" vertical-offset="331" max-vertical-offset="870">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -920,21 +930,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/api_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="720">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.57088125" vertical-offset="467" max-vertical-offset="1050">
+          <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
           <folding>
             <element signature="e#531#747#0" expanded="false" />
             <element signature="e#781#999#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuneful/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60998154" vertical-offset="0" max-vertical-offset="541">
-          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
