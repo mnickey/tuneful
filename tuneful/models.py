@@ -13,8 +13,8 @@ class Song(Base):
     a column specifying a one-to-one relationship with a File. """
     __tablename__ = "songs"
     id = Column(Integer, Sequence('song_id_sequence'), primary_key=True)
-    file_id = (Column, Integer, ForeignKey('files.id'))
-    info = relationship("File", uselist=False, backref="songs")
+    file_id = (Column(Integer, ForeignKey('files.id')))
+    file = relationship("File", uselist=False, backref="songs")
 
     def __repr__(self):
         # was return str(self.as_dictionary() )
@@ -23,7 +23,7 @@ class Song(Base):
     def as_dictionary(self):
         song = {
             "id": self.id,
-            "info": self.info }
+            "file": self.file }
         # print "This is song.info: ", self.info.as_dictionary()
         return song
 

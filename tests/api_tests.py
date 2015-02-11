@@ -36,7 +36,7 @@ class TestAPI(unittest.TestCase):
         """ Get a song from a prepopulated database """
         # Create the file and the song
         fileA = models.File(name="test")
-        songA = models.Song(info=fileA)
+        songA = models.Song(file=fileA)
         # Add the song to the database
         session.add_all([songA, fileA])
         session.commit()
@@ -60,7 +60,7 @@ class TestAPI(unittest.TestCase):
         """ Post a song """
         # Create the file and the song
         fileB = models.File(name="testPut")
-        songB = models.Song( info=fileB )
+        songB = models.Song( file=fileB )
         print (songB)
         print (fileB)
         # Add the song to the database
@@ -82,6 +82,5 @@ class TestAPI(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         # Check to make sure that the mimetype is JSON
         self.assertEqual(response.mimetype, "application/json")
-        assert False
+        # assert False
         # self.assertEqual(songB.id, 2)
-

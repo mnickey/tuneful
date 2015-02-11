@@ -22,7 +22,7 @@ def songs_get():
 def songs_put(id):
     """ Put a song into the database """
     song = session.query(models.Song).get(id)
-    song.info.name = "wibble"
+    song.file.name = "wibble"
     session.add(song)
     session.commit()
     song = session.query(models.Song).get(id)
