@@ -17,6 +17,10 @@ def songs_get():
     data = json.dumps([])
     return Response(data, 200, mimetype="application/json")
 
+@app.route("/api/files", methods="POST")
+def songs_post():
+    pass
+
 @app.route("/api/songs/<int:id>", methods=["PUT", "POST"])
 @decorators.accept("application/json")
 def songs_put(id):
