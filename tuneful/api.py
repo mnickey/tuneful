@@ -17,12 +17,11 @@ def songs_get():
     data = json.dumps([])
     return Response(data, 200, mimetype="application/json")
 
-@app.route("/api/songs/<int:id>", methods=["PUT"])
+@app.route("/api/songs/<int:id>", methods=["PUT", "POST"])
 @decorators.accept("application/json")
 def songs_put(id):
     """ Put a song into the database """
     song = session.query(models.Song).get(id)
-    song.file.name = "wibble"
     session.add(song)
     session.commit()
     song = session.query(models.Song).get(id)

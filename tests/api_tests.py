@@ -35,8 +35,8 @@ class TestAPI(unittest.TestCase):
     def testGetSongs(self):
         """ Get a song from a prepopulated database """
         # Create the file and the song
-        fileA = models.File(name="test")
-        songA = models.Song(file=fileA)
+        fileA = models.File(file_name="test")
+        songA = models.Song(name="first test", song_file = fileA)
         # Add the song to the database
         session.add_all([songA, fileA])
         session.commit()
@@ -59,20 +59,20 @@ class TestAPI(unittest.TestCase):
     def testPostSongs(self):
         """ Post a song """
         # Create the file and the song
-        fileB = models.File(name="testPut")
-        songB = models.Song( file=fileB )
-        print (songB)
-        print (fileB)
+        fileB = models.File(file_name="testPut")
+        songB = models.Song(name="test-name", song_file = fileB )
+        # print (songB)
+        # print (fileB)
         # Add the song to the database
-        session.add_all([songB, fileB])
+        session.add_all([songB])
         session.commit()
-        print (songB)
-        print (fileB)
-        print session.query(models.File).all()
-        pp ("songB details: {}".format(songB) )
+        # print (songB)
+        # print (fileB)
+        # print session.query(models.File).all()
+        # pp ("songB details: {}".format(songB) )
         newSong = songB.as_dictionary()
-        pp ("newSong details: {}".format(newSong) )
-        print type(newSong)
+        # pp ("newSong details: {}".format(newSong) )
+        # print type(newSong)
         # print type(newSong)
         # Check to make sure that the song is seen by the endpoint
         response = self.client.put("/api/songs/{}".format(songB.id),
