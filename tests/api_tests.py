@@ -61,15 +61,8 @@ class TestAPI(unittest.TestCase):
         # Create the file and the song
         fileB = models.File(file_name="testPut")
         songB = models.Song(name="test-name", song_file = fileB )
-        # print (songB)
-        # print (fileB)
-        # Add the song to the database
         session.add_all([songB])
         session.commit()
-        # print (songB)
-        # print (fileB)
-        # print session.query(models.File).all()
-        # pp ("songB details: {}".format(songB) )
         newSong = songB.as_dictionary()
         # pp ("newSong details: {}".format(newSong) )
         # print type(newSong)
@@ -84,3 +77,21 @@ class TestAPI(unittest.TestCase):
         self.assertEqual(response.mimetype, "application/json")
         # assert False
         # self.assertEqual(songB.id, 2)
+    def testDeleteSongs(self):
+        fileB = models.File(file_name="testPut")
+        songB = models.Song(name="test-name", song_file = fileB )
+        session.add_all([songB])
+        session.commit()
+        response = self.client.delete("/api/songs/{}".format(songB.id),
+                    headers = [("Accept", "application/json")] )
+        self.assertEqual(response.status_code, 200)
+    def test_get_uploaded_file(self):
+        path =  upload_path("test.txt")
+        with open(path, "w") as f:
+            f.write("File contents")
+
+        response = self.client.get("/uploads/test.txt")
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.mimetype, "text/plain")
+        self.assertEqual(response.data, "File contents")

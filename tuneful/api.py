@@ -17,18 +17,42 @@ def songs_get():
     data = json.dumps([])
     return Response(data, 200, mimetype="application/json")
 
-@app.route("/api/files", methods="POST")
+@app.route("/api/files", methods=["POST"])
 def songs_post():
-    pass
+    file = request.files["file"]
+    fileB = models.File(file_name=file.filename)
+    # print file.filename
+    file.save(os.path.join(app.config['UPLOAD_FOLDER'], file.filename))
+    songB = models.Song(name=file.filename, song_file = fileB )
+    session.add_all([songB])
+    session.commit()
+    # print request.files["file"]
+    return Response('', 200 )
 
-@app.route("/api/songs/<int:id>", methods=["PUT", "POST"])
+@app.route("/api/songs/<int:id>", methods=["PUT", "POST", "DELETE"])
 @decorators.accept("application/json")
 def songs_put(id):
     """ Put a song into the database """
-    song = session.query(models.Song).get(id)
-    session.add(song)
-    session.commit()
-    song = session.query(models.Song).get(id)
-    print song
-
-    return Response('', 200, mimetype="application/json")
+    if request.method == "DELETE":
+        song = session.query(models.Song).get(id)
+        session.delete(song)
+        session.commit()
+        return Response('', 200, mimetype="application/json")
+    elif request.method == "PUT":
+        song = session.query(models.Song).get(id)
+        session.add(song)
+        session.commit()
+        song = session.query(models.Song).get(id)
+        return Response('', 200, mimetype="application/json")
+    elif request.method == "POST":
+        song = session.query(models.Song).get(id)
+        session.add(song)
+        session.commit()
+        song = session.query(models.Song).get(id)
+        return Response('', 200, mimetype="application/json")
+    else:
+        print "wtf!?!"
+        return Response('', 500, mimetype="application/json")
+@app.route("/uploads/<filename>", methods=["GET"])
+def uploaded_file(filename):
+    return send_from_directory(upload_path(), filename)
