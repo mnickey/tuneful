@@ -60,8 +60,25 @@ def songs_put(id):
         return Response('', 500, mimetype="application/json")
 
 # create a post route and get the id for the song posted
-# @app.route("/api/songs/", methods=["POST"])
-# @decorators.accept("application/json")
+@app.route("/api/songs", methods=["POST"])
+@decorators.accept("application/json")
+def songs_post():
+    # retrieve a file from the databsae and attache that to the song
+    # id = the id of the newest file from the request data
+    # id = request.
+    print request.json
+    data = models.File(id=["id"])
+
+    session.query(models.File).get(id)
+
+    #figure out what ID we are working with
+    print id
+
+    song = models.Song(song_file=models.File.song_id)
+
+    session.add(song)
+    session.commit()
+    return Response('', 200, mimetype="application/json")
 
 @app.route("/uploads/<filename>", methods=["GET"])
 def uploaded_file(filename):
