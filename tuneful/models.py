@@ -22,12 +22,12 @@ class Song(Base):
 
     def __repr__(self):
         # was return str(self.as_dictionary() )
-        return ("[[[" + str(self.as_dictionary()) + "]]]")
+        return str("<<" + self.as_dictionary() + ">>")
 
     def as_dictionary(self):
         song = {
             "id": self.id,
-            "file_name": self.song_file
+            "file_name": self.song_file.file_name
         }
         return song
 
@@ -42,12 +42,14 @@ class File(Base):
 
     def __repr__(self):
         # was return str(self.as_dictionary() )
-        return ("[[[" + str(self.as_dictionary()) + "]]]")
+        return str(self.as_dictionary())
 
     def as_dictionary(self):
         file = {
             "id": self.id,
-            "file_name": self.file_name }
+            "file_name": self.file_name,
+            "path": url_for("uploaded_file", filename=self.file_name)
+        }
         return file
 
 # engine = create_engine("postgresql://:@localhost:5432/tuneful")
