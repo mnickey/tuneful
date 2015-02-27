@@ -63,18 +63,15 @@ def songs_put(id):
 @app.route("/api/songs", methods=["POST"])
 @decorators.accept("application/json")
 def songs_post():
-    # retrieve a file from the databsae and attache that to the song
+    # retrieve a file from the database and attache that to the song
     # id = the id of the newest file from the request data
-    # id = request.
     print request.json
-    data = models.File(id=["id"])
+    data = session.query(models.File).filter(models.File.id==request.json["file"]["id"] ).one()
+    print data
+    # REQUIRES:
 
-    session.query(models.File).get(id)
-
-    #figure out what ID we are working with
-    print id
-
-    song = models.Song(song_file=models.File.song_id)
+    song = models.Song(name=data.file_name)
+    print song
 
     session.add(song)
     session.commit()
@@ -83,6 +80,7 @@ def songs_post():
 @app.route("/uploads/<filename>", methods=["GET"])
 def uploaded_file(filename):
     return send_from_directory(upload_path(), filename)
+
 @app.route("/api/files", methods=["POST"])
 @decorators.require("multipart/form-data")
 @decorators.accept("application/json")
