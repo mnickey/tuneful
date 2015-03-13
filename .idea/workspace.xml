@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96b5d50c-a543-4e50-87d3-06edde7b381d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tuneful/api.py" afterPath="$PROJECT_DIR$/tuneful/api.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Tuneful.iws" />
@@ -27,6 +26,66 @@
     <option name="GROUP_BY_TYPE" value="true" />
     <option name="SORT_CHILDREN" value="false" />
     <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - tuneful@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="tuneful.public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - tuneful@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="tuneful.public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="songs" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - tuneful@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="tuneful.public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="files" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - tuneful@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -72,10 +131,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tuneful/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1260">
+            <state vertical-scroll-proportion="0.24220183" vertical-offset="153" max-vertical-offset="1260">
               <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -87,8 +146,8 @@
       <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuneful/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="7" column="57" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -97,7 +156,7 @@
       <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuneful/database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -116,23 +175,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tuneful/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuneful/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5026178" vertical-offset="462" max-vertical-offset="1545">
-              <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="1545">
+              <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#1208#2049#0" expanded="false" />
@@ -156,8 +203,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuneful/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="1470">
-              <caret line="90" column="11" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1470">
+              <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -178,6 +225,7 @@
         <option value="$PROJECT_DIR$/tests/api_tests.py" />
         <option value="$PROJECT_DIR$/tuneful/models.py" />
         <option value="$PROJECT_DIR$/tuneful/api.py" />
+        <option value="db-console:/8c81851/0a398cd4-716c-48dc-8a78-3bd64dcb78c2/" />
       </list>
     </option>
   </component>
@@ -185,10 +233,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="862" />
-    <option name="y" value="23" />
-    <option name="width" value="1238" />
-    <option name="height" value="990" />
+    <option name="x" value="133" />
+    <option name="y" value="36" />
+    <option name="width" value="1727" />
+    <option name="height" value="910" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -201,7 +249,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -212,7 +260,43 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tuneful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tuneful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tuneful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tuneful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tuneful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tuneful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -221,6 +305,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -316,6 +401,12 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -437,20 +528,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="862" y="23" width="1238" height="990" extended-state="0" />
-    <editor active="true" />
+    <frame x="133" y="36" width="1727" height="910" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3107798" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27651516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1326923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1643917" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15224913" sideWeight="0.70178574" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11038575" sideWeight="0.70178574" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16610456" sideWeight="0.2982143" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57863146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -485,42 +577,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tuneful/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="315">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuneful/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="780">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuneful/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#1208#2049#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/api_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="555">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tuneful/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="315">
@@ -834,44 +890,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tuneful/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuneful/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="1470">
-          <caret line="90" column="11" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tuneful/static/js/wavesurfer.js/wavesurfer-js-map.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.9921722" vertical-offset="0" max-vertical-offset="2130">
           <caret line="0" column="22857" selection-start-line="0" selection-start-column="22857" selection-end-line="0" selection-end-column="22857" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuneful/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuneful/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,6 +907,255 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tuneful/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuneful/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1470">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/0a398cd4-716c-48dc-8a78-3bd64dcb78c2">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>0a398cd4-716c-48dc-8a78-3bd64dcb78c2</OriginalElement>
+          <nodes>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_cast</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.foreign_servers</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_largeobject</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.table_constraints</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.domain_constraints</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_all_indexes</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_replication_slots</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.tables</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_shadow</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_sys_tables</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_xact_user_functions</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_shdescription</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.user_mappings</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_shseclabel</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_settings</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.sql_sizing_profiles</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.role_column_grants</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_am</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_db_role_setting</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.role_routine_grants</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_database_conflicts</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_type</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_cursors</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema._pg_user_mappings</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.domains</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_user</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.information_schema_catalog_name</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.element_types</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_collation</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.columns</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.domain_udt_usage</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.foreign_table_options</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_attribute</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.view_routine_usage</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_range</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.key_column_usage</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.enabled_roles</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_prepared_statements</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_group</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.udt_privileges</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_statio_sys_tables</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stats</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_foreign_table</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_trigger</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_ts_dict</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_extension</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_conversion</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_xact_sys_tables</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.foreign_data_wrapper_options</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_timezone_abbrevs</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_constraint</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_statio_user_sequences</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.sql_features</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_namespace</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_ts_parser</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema._pg_foreign_table_columns</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.character_sets</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_available_extensions</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.sql_packages</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_tables</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema._pg_foreign_tables</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.table_privileges</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_authid</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_archiver</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_amproc</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_seclabel</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_amop</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_locks</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.role_udt_grants</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.views</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.sql_implementation_info</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_statio_all_tables</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.check_constraint_routine_usage</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_shdepend</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_foreign_server</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.column_privileges</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.foreign_server_options</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_roles</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_bgwriter</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_xact_all_tables</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.triggered_update_columns</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.applicable_roles</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.data_type_privileges</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_index</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_enum</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_statistic</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_proc</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.collation_character_set_applicability</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.referential_constraints</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.constraint_table_usage</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_statio_all_indexes</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_timezone_names</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_tablespace</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_inherits</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.public.songs</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_sys_indexes</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_statio_all_sequences</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_statio_user_tables</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.view_column_usage</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_rules</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_opclass</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_default_acl</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.sequences</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_available_extension_versions</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.schemata</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.column_domain_usage</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_language</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_seclabels</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_matviews</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.parameters</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_attrdef</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_database</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema._pg_foreign_data_wrappers</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.role_table_grants</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_user_indexes</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.sql_languages</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_rewrite</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_opfamily</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_user_mapping</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.public.files</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_largeobject_metadata</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_event_trigger</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_database</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.administrable_role_authorizations</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.routine_privileges</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_user_tables</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_prepared_xacts</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_aggregate</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_depend</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.triggers</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.collations</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.check_constraints</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_user_functions</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_ts_template</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_statio_sys_indexes</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_foreign_data_wrapper</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_views</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.view_table_usage</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_xact_user_tables</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema._pg_foreign_servers</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.foreign_data_wrappers</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_pltemplate</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.foreign_tables</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.role_usage_grants</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.sql_sizing</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_description</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_auth_members</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.usage_privileges</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.attributes</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_ts_config</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.user_mapping_options</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_replication</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.constraint_column_usage</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_user_mappings</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.user_defined_types</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_all_tables</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_class</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_indexes</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_statio_sys_sequences</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_statio_user_indexes</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.column_options</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_ts_config_map</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.column_udt_usage</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.routines</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.information_schema.sql_parts</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_stat_activity</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.pg_catalog.pg_operator</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.18912594631796284" x="1487.0" y="655.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/0a398cd4-716c-48dc-8a78-3bd64dcb78c2.schema:tuneful.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>0a398cd4-716c-48dc-8a78-3bd64dcb78c2.schema:tuneful.public</OriginalElement>
+          <nodes>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.public.songs</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.public.files</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="64.0" y="111.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/8c81851/0a398cd4-716c-48dc-8a78-3bd64dcb78c2/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="473">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuneful/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuneful/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/api_tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1178" max-vertical-offset="1890">
@@ -895,23 +1166,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tuneful/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1260">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+    <entry file="uml://DATABASE/0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.public.files">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.public.files</OriginalElement>
+          <nodes>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.public.songs</node>
+            <node x="" y="">0a398cd4-716c-48dc-8a78-3bd64dcb78c2.table:tuneful.public.files</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-307.0" y="92.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tuneful/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5026178" vertical-offset="462" max-vertical-offset="1545">
-          <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="1545">
+          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1208#2049#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuneful/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24220183" vertical-offset="153" max-vertical-offset="1260">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
