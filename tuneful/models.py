@@ -10,24 +10,24 @@ from sqlalchemy import *
 from sqlalchemy.ext.declarative import *
 from sqlalchemy.orm import *
 
+import json
+
 class Song(Base):
     __tablename__  = "songs"
     """ The Song model: This should have an integer id column,
     a column specifying a one-to-one relationship with a File. """
     id = Column(Integer, Sequence('id'), primary_key=True)
     name = Column(String(250), nullable=False)
-    song_file = relationship("File",
-        uselist=False,
-        backref="songs" )
+    song_id = Column(Integer, ForeignKey('files.id'))
 
     def __repr__(self):
-        # was return str(self.as_dictionary() )
-        return str("<<" + self.as_dictionary() + ">>")
+        # removed "<<" & ">>" from repr, made return into a str
+        return json.dumps(self.as_dictionary() )
 
     def as_dictionary(self):
         song = {
             "id": self.id,
-            "file_name": self.song_file.file_name
+            "file_name": self.name
         }
         return song
 
@@ -37,7 +37,8 @@ class File(Base):
     a string column for the file name and the backref from the one-to-one relationship with the Song."""
     id = Column(Integer, primary_key=True)
     file_name = Column(String(1024) )
-    song_id = Column(Integer, ForeignKey('songs.id'))
+    song_file = relationship("Song",
+        uselist=False)
     # song_info = relationship("Song", backref="files")
 
     def __repr__(self):
